@@ -1,0 +1,52 @@
+:root{
+    --css-background:#000000;
+    --css-textcolor: #ffffff;
+    --css-boxbgcolor: #cad9de;
+    --css-boxtextcolor: #421616;
+}
+
+*{
+    /* background-color: var(--css-background) ;
+    color:var(--css-textcolor); */
+}
+
+.card-box{
+    background-color:  var(--css-boxbgcolor) !important;
+    color: var(--css-boxtextcolor) !important;
+}
+.card-box:hover{
+    background-color:  blueviolet !important;
+    color:#fbf2f2 !important;
+}
+.scaling:hover{
+    transform: scale(1.2,1.2) !important;
+    transition-duration: 1s !important;
+    transition-duration: inherit;
+    z-index: 99999 !important;
+}
+.textbgcolor:hover{
+    background-color: yellow !important;
+}
+.languageiconheight{
+    height: 25px ;
+}
+.heightfixd{
+    height: 20rem !important;
+    color: red;
+}
+.scaling2:hover{
+    transform: scale(1.6,1.8) !important;
+    transition-duration: 1s !important;
+    transition-duration: inherit;
+    z-index: 99999 !important;
+}
+.scaling0:hover{
+    transform: scale(1.1,1.1) !important;
+    transition-duration: 1s !important;
+    transition-duration: inherit;
+    z-index: 99999999 !important;
+}
+.nav-menu:hover{
+ color: #8f200a !important;
+ font-weight: 1000;
+}
